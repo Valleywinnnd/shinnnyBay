@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <title>世贸滚动</title>
+
+    <link href="./css/animate.min.css" type="text/css" rel="stylesheet"/>
+    <link href="./css/panna_com.1.0.3.css" type="text/css" rel="stylesheet"/>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/css/swiper.min.css" type="text/css" rel="stylesheet"/>
+    <link href="./css/popup.css" type="text/css" rel="stylesheet"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://lib.baomitu.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/preloadjs.js"></script>
+    <script src="js/soundjs.js"></script>
+    <script src="./js/pn_com.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="//cdn.pannacloud.com/js/share.1.0.1.js"></script>
+    <script type="text/javascript">
+        SHARE.hideCopyUrl();
+        SHARE.shareOption({
+            link: "",
+            pic: "",
+            title: "",
+            desc: "",
+            success: function () {
+
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- music图标 -->
+    <!-- <a href="javascript:;" class="musicBtn music_open" id="musicBtn"></a> -->
+    <!-- loading 界面 -->
+    <div class="loading loading-panna" id="loading" style="background:#fff;">
+        <div class="loadingArea">
+            <embed src="//public.pannacloud.com/img/loading/loading10.svg" width="70" height="70" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" class="loadingSvg" />
+            <p class="loading-percent" style="opacity: 1;color:#000;">0%</p>
+        </div>
+    </div>
+
+    <!-- swiper 界面 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- slide1 -->
+            <div class="swiper-slide page page1 preloadBg" data-src="./img/bg1.png">
+                <img data-src="./img/logo_l.png" class="preload logo-l" >
+                <img data-src="./img/logo_r.png" class="preload logo-r" >
+                <img data-src="./img/letter.png" class="preload letter" >
+                <img data-src="./img/circle_r.png" class="preload circle-r animated fadeInRight hidden" >
+                <img data-src="./img/circle_l.png" class="preload circle-l animated fadeInLeft hidden" >
+                <img data-src="./img/copyright.png" class="preload copyright animated fadeInUp hidden" >
+                <img data-src="./img/village.png" class="preload village animated fadeInDown hidden" >
+                <img data-src="./img/shinebay.png" class="preload shinebay animated scaleBig hidden" >
+                <img data-src="./img/CTLD.png" class="preload CTLD animated scaleLittle hidden" >
+            </div>
+            <!-- slide2 -->
+            <div class="swiper-slide page page2 preloadBg" data-src="./img/bg2.jpg">
+                <img data-src="./img/onestation.png" class="preload animated scaleBig onestation hidden">
+                <img data-src="./img/threecircle.png" class="preload animated  fadeInLeft threecircle hidden">
+                <img data-src="./img/CTLD1.png" class="preload animated scaleLittle CTLD1 hidden">
+                <img data-src="./img/forward.png" class="preload animated fadeInUp forward hidden">
+                <img data-src="./img/copyright1.png" class="preload animated fadeInUp copyright1 hidden">
+            </div>
+            <!-- slide3 -->
+            <div class="swiper-slide page page3 preloadBg" data-src="./img/bg3.jpg">
+                <img data-src="./img/SIPHON.png" class="preload animated scaleLittle SIPHON hidden">
+                <img data-src="./img/3_circle_r.png" class="preload animated fadeInRight CircleR-3 hidden">
+                <img data-src="./img/3_circle_lt.png" class="preload animated fadeInUp CircleLT-3 hidden">
+                <img data-src="./img/3_circle_lb.png" class="preload animated fadeInLeft CircleLB-3 hidden">
+                <img data-src="./img/hongxirenchao.png" class="preload animated scaleBig hongxirenchao hidden">
+                <img data-src="./img/bangongjuhe.png" class="preload animated scaleBig bangongjuhe hidden">
+                <img data-src="./img/changzhurenkou.png" class="preload animated scaleBig changzhurenkou hidden">
+                <img data-src="./img/qitapeitao.png" class="preload animated scaleBig qitapeitao hidden">
+            </div>
+            <!-- slide4 -->
+            <div class="swiper-slide page page4 preloadBg" data-src="./img/bg4.png">
+                <img data-src="./img/creating.png" class="preload animated scaleLittle creating hidden">
+                <img data-src="./img/huayuanjiequ.png" class="preload animated scaleBig huayuanjiequ hidden">
+                <img data-src="./img/village_4.png" class="preload animated scaleLittle village-4 hidden">
+                <img data-src="./img/gangwanguangchang.png" class="preload animated fadeInUp gangwanguangchang hidden">
+                <img data-src="./img/wanguvillage.png" class="preload animated fadeInUp wanguvillage hidden">
+                <img data-src="./img/bottom_icon_4.png" class="preload animated fadeInUp bottom-icon-4 hidden">
+            </div>
+            <!-- slide5 -->
+            <div class="swiper-slide page page5 preloadBg" data-src="./img/bg5.png">
+                <img data-src="./img/img_5_1.png" class="preload animated scaleLittle img_5_1 hidden">
+                <img data-src="./img/img_5_2.png" class="preload animated scaleBig img_5_2 hidden">
+                <img data-src="./img/img_5_3.png" class="preload animated fadeInDown img_5_3 hidden">
+                <img data-src="./img/img_5_4.png" class="preload animated fadeInRight img_5_4 hidden">
+                <img data-src="./img/img_5_5.png" class="preload animated fadeInLeft img_5_5 hidden">
+            </div>
+            <!-- slide6 -->
+            <div class="swiper-slide page page6 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_6_1.png" class="preload animated fadeInRight img_6_1 hidden">
+                <img data-src="./img/img_6_2.png" class="preload animated scaleLittle img_6_2 hidden">
+                <img data-src="./img/img_6_3.png" class="preload animated fadeInUp img_6_3 hidden">
+                <img data-src="./img/img_6_4.png" class="preload animated scaleBig img_6_4 hidden">
+            </div>
+            <!-- slide7 -->
+            <div class="swiper-slide page page7 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_7_1.png" class="preload animated fadeInRight img_7_1 hidden">
+                <img data-src="./img/img_7_2.png" class="preload animated scaleBig img_7_2 hidden">
+                <img data-src="./img/img_7_3.png" class="preload animated fadeInUp img_7_3 hidden">
+                <img data-src="./img/img_7_4.png" class="preload animated scaleBig img_7_4 hidden">
+                <img data-src="./img/img_7_5.png" class="preload animated fadeInRight img_7_5 hidden">
+                <img data-src="./img/img_7_6.png" class="preload animated scaleBig img_7_6 hidden">
+            </div>
+            <!-- slide8 -->
+            <div class="swiper-slide page page8 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_8_1.png" class="preload animated scaleBig img_8_1 hidden">
+                <img data-src="./img/img_8_2.png" class="preload animated fadeInRight img_8_2 hidden">
+                <img data-src="./img/img_8_3.png" class="preload animated fadeInUp img_8_3 hidden">
+                <img data-src="./img/img_8_4.png" class="preload animated scaleBig img_8_4 hidden">
+                <img data-src="./img/img_8_5.png" class="preload animated scaleLittle img_8_5 hidden">
+            </div>
+            <!-- slide9 -->
+            <div class="swiper-slide page page9 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_9_1.png" class="preload animated fadeInRight img_9_1 hidden">
+                <img data-src="./img/img_9_2.png" class="preload animated scaleLittle img_9_2 hidden">
+                <img data-src="./img/img_9_3.png" class="preload animated fadeInUp img_9_3 hidden">
+                <img data-src="./img/img_9_4.png" class="preload animated scaleBig img_9_4 hidden">
+            </div>
+
+            <!-- slide10 -->
+            <div class="swiper-slide page page10preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_10_1.png" class="preload animated fadeInRight img_10_1 hidden">
+                <img data-src="./img/img_10_2.png" class="preload animated scaleBig img_10_2 hidden">
+                <img data-src="./img/img_10_3.png" class="preload animated fadeInUp img_10_3 hidden">
+                <img data-src="./img/img_9_4.png" class="preload animated scaleBig img_9_4 hidden">
+            </div>
+            <!-- slide11 -->
+            <div class="swiper-slide page page11 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_11_1.png" class="preload animated fadeInRight img_8_1 hidden">
+                <img data-src="./img/img_11_2.png" class="preload animated scaleLittle img_8_2 hidden">
+                <img data-src="./img/img_11_3.png" class="preload animated fadeInUp img_8_3 hidden">
+                <img data-src="./img/img_8_4.png" class="preload animated scaleBig img_8_4 hidden">
+                <img data-src="./img/img_8_5.png" class="preload animated scaleLittle img_8_5 hidden">
+            </div>
+            <!-- slide12 -->
+            <div class="swiper-slide page page12 preloadBg" data-src="./img/bg6.png">
+                <img data-src="./img/img_12_1.png" class="preload animated scaleBig img_8_1 hidden">
+                <img data-src="./img/img_12_2.png" class="preload animated fadeInRight img_8_2 hidden">
+                <img data-src="./img/img_12_3.png" class="preload animated fadeInUp img_8_3 hidden">
+                <img data-src="./img/img_8_4.png" class="preload animated scaleBig img_8_4 hidden">
+                <img data-src="./img/img_8_5.png" class="preload animated scaleLittle img_8_5 hidden">
+            </div>
+            <!-- slide13 -->
+            <div class="swiper-slide page page13 preloadBg" data-src="./img/bg13.jpg">
+                <img data-src="./img/img_13_1.png" class="preload animated scaleLittle img_13_1 hidden">
+                <img data-src="./img/img_13_2.png" class="preload animated fadeInLeft img_13_2 hidden">
+                <img data-src="./img/img_13_3.png" class="preload animated fadeInRight img_13_3 hidden">
+                <img data-src="./img/img_13_4.png" class="preload animated scaleBig img_13_4 hidden">
+                <img data-src="./img/img_13_5.png" class="preload animated scaleBig img_13_5 hidden">
+                <img data-src="./img/img_13_6.png" class="preload animated scaleBig img_13_6 hidden">
+                <img data-src="./img/img_13_7.png" class="preload animated scaleBig img_13_7 hidden">
+                <img data-src="./img/img_13_8.png" class="preload animated scaleBig img_13_8 hidden">
+                <img data-src="./img/img_13_9.png" class="preload animated fadeInUp img_13_9 hidden">
+            </div>
+            <!-- slide14 -->
+            <div class="swiper-slide page page14 preloadBg" data-src="./img/bg14.jpg">
+                <img data-src="./img/img_14_1.png" class="preload animated scaleLittle img_14_1 hidden">
+                <img data-src="./img/img_14_2.png" class="preload animated scaleBig img_14_2 hidden">
+                <img data-src="./img/img_14_3.png" class="preload animated scaleBig img_14_3 hidden">
+                <img data-src="./img/img_14_4.png" class="preload animated bounceIn img_14_4 hidden">
+                <img data-src="./img/img_14_5.png" class="preload animated fadeInRight img_14_5 hidden">
+                <img data-src="./img/img_14_6.png" class="preload animated fadeInUp img_14_6 hidden">
+                <img data-src="./img/img_14_7.png" class="preload animated scaleBig img_14_7 hidden">
+            </div>
+        </div>
+    </div>
+
+    <!-- 配置界面 -->
+    <script src="./js/pn_loader.js"></script>
+    <script>
+        window.onload = function() {
+            $.comFunc().config({
+                 prevent: true,
+                 arrow: true,
+                 test: false,
+                 screenLock: false,
+                 arrowImgUrl: 'img/arrow.png'
+            })
+        };
+        var sourceData = []
+
+        $(function(){
+            $.bugFixed();
+            $.winInit(750);
+
+            $.loader({
+                staticResource: sourceData,
+                bgmCtrl: true,
+                bgmCtrlIcon: [
+                    {src: 'img/music_on.png', id: 'music-open'},
+                    {src: 'img/music_off.png', id: 'music-close'}
+                ],
+
+                handleLoading: function(evt) {
+                    var cProgress = Math.floor(evt.loaded * 100);
+                    $('.loading-percent').html(cProgress + '%')
+                },
+                handleFileLoaded: function(event) {
+                    // console.log(event)
+                },
+                handleComplete: function() {
+                    // console.log('加载完成了！')
+                    $('.loading').remove()
+                    $('.page1').children().show()
+                }
+            });
+
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                resistanceRatio: 0,
+                onSlideChangeEnd: function() {
+                    var i = mySwiper.activeIndex;
+                    // console.log(i)
+                    $('.swiper-slide').each(function() {
+                        if($(this).hasClass('swiper-slide-active')) {
+                            $(this).children().show()
+                            $(this).siblings().children().hide()
+                        }
+                    });
+                    if(i == $('.swiper-slide').length - 1) {
+                        $('.arrow').hide()
+                    } else {
+                        $('.arrow').show()
+                    }
+                }
+            })
+
+            $.statistics('statistics');
+        })
+    </script>
+    
+</body>
+</html>

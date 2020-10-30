@@ -1,0 +1,11 @@
+{
+  "name": "shinebay",
+  "version": "1.0.0",
+  "description": "测试",
+  "main": "ajax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jianwei mao",
+  "license": "ISC"
+}

@@ -1,0 +1,655 @@
+@charset 'UTF-8';
+.loading .loading-percent{
+    opacity: 1;
+    /* background-color: #fff; */
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    max-width: 7.5rem;
+    height: 100%;
+    background-color: #fff;
+}
+.arrow {
+    width: .3rem;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.preloadBg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* 第一个页面样式开始 */
+.logo-l {
+    position: absolute;
+    top: .5rem;
+    left: .2rem;
+    width: 1.94rem;
+}
+
+.logo-r {
+    position: absolute;
+    top: .46rem;
+    right: .24rem;
+    width: 2.38rem;
+}
+
+.letter {
+    position: absolute;
+    bottom: 3.63rem;
+    right: .5rem;
+    width: 2.98rem;
+}
+
+.circle-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6.23rem;
+    z-index: -1;
+    animation-duration: 2s;
+}
+
+.circle-l {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3.47rem;
+    z-index: -1;
+    animation-duration: 2s;
+}
+
+.copyright {
+    position: absolute;
+    bottom: .33rem;
+    left: 1.5rem;
+    width: 5.46rem;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+}
+
+.village {
+    position: absolute;
+    bottom: .27rem;
+    left: .4rem;
+    width: .74rem;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.shinebay {
+    position: absolute;
+    bottom: .95rem;
+    right: .55rem;
+    width: 2.04rem;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+}
+
+.CTLD {
+    position: absolute;
+    top: 1.9rem;
+    right: .4rem;
+    width: 4.4rem;
+    animation-delay: .7s;
+    animation-duration: 2s;
+}
+/* 第一个页面样式结束 */
+.scaleBig {
+    animation-name: scaleBig;
+}
+
+.scaleLittle {
+    animation-name: scaleLittle;
+}
+/* 从小到大动画 */
+@keyframes scaleBig {
+    0% {
+        opacity: 0;
+        transform: scale(.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 从大到小动画 */
+@keyframes scaleLittle {
+    0% {
+        opacity: 0;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* 第二个页面样式开始 */
+.onestation {
+    position: absolute;
+    top: .58rem;
+    right: .6rem;
+    width: 4.43rem;
+    animation-duration: 1.5s;
+}
+
+.threecircle {
+    position: absolute;
+    bottom: .7rem;
+    left: 0;
+    width: 7.08rem;
+    animation-delay: .2s;
+    animation-duration: 2s;
+}
+
+.CTLD1 {
+    position: absolute;
+    top: 2.95rem;
+    right: .5rem;
+    width: 4.46rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s
+}
+
+.forward {
+    position: absolute;
+    top: .87rem;
+    left: .64rem;
+    width: .34rem;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s
+}
+
+.copyright1 {
+    position: absolute;
+    bottom: .2rem;
+    left: .4rem;
+    width: 5.46rem;
+    animation-delay: 2s;
+}
+
+/* 第二个页面样式结束 */
+
+/* 第三个页面样式开始 */
+.SIPHON {
+    position: absolute;
+    top: .55rem;
+    right: .55rem;
+    width: .22rem;
+    animation-duration: 1s;
+}
+
+.CircleR-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3.62rem;
+    animation-duration: 1s;
+}
+
+.CircleLT-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.17rem;
+    animation-duration: 1s;
+}
+
+.CircleLB-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 4.44rem;
+    animation-duration: 1s;
+}
+
+.hongxirenchao {
+    position: absolute;
+    top: .58rem;
+    left: .34rem;
+    width: 6.82rem;
+    animation-delay: 1s;
+}
+.bangongjuhe {
+    position: absolute;
+    top: 3.87rem;
+    left: .48rem;
+    width: 4.25rem;
+    animation-delay: 1.5s;
+}
+.changzhurenkou {
+    position: absolute;
+    bottom: 3.95rem;
+    right: .54rem;
+    width: 1.8rem;
+    animation-delay: 2s;
+}
+.qitapeitao {
+    position: absolute;
+    bottom: 1.2rem;
+    left: .5rem;
+    width: 3.15rem;
+    animation-delay: 2.5s;
+}
+/* 第三个页面样式结束 */
+
+.creating {
+    position: absolute;
+    top: .65rem;
+    right: .63rem;
+    width: .36rem;
+    animation-duration: 1.5s;
+}
+
+.huayuanjiequ {
+    position: absolute;
+    top: .63rem;
+    left: .4rem;
+    width: 4.4rem;
+    animation-duration: 1.5s;
+}
+.village-4 {
+    position: absolute;
+    top: 2.78rem;
+    left: 0;
+    width: 100%;
+    animation-delay: .7s;
+    animation-duration: 1.5s;
+}
+.gangwanguangchang {
+    position: absolute;
+    bottom: 1.9rem;
+    left: .52rem;
+    width: .2rem;
+    animation-delay: 1.7s;
+    animation-duration: 1.5s;
+}
+.wanguvillage {
+    position: absolute;
+    bottom: .85rem;
+    left: .52rem;
+    width: 4.36rem;
+    animation-delay: 2.5s;
+    animation-duration: 1.5s;
+}
+
+.bottom-icon-4 {
+    position: absolute;
+    bottom: 0;
+    right: .8rem;
+    width: .15rem;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+}
+/* 第五个页面样式开始 */
+.img_5_1 {
+    position: absolute;
+    top: .56rem;
+    left: 0;
+    width: 100%;
+    animation-duration: 1.5s;
+}
+.img_5_2 {
+    position: absolute;
+    top: 5.68rem;
+    left: 1.70rem;
+    width: 4.33rem;
+    animation-delay: .5s;
+    animation-duration: 1.5s;
+}
+.img_5_3 {
+    position: absolute;
+    top: 7.87rem;
+    left: 2.93rem;
+    width: 100%;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_5_5 {
+    position: absolute;
+    top: 7.87rem;
+    left: .9rem;
+    width: 100%;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_5_4 {
+    position: absolute;
+    top: 7.87rem;
+    right: .9rem;
+    width: 100%;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+/* 页面5结束 */
+
+/* 页面6开始 */
+.img_6_1 {
+    position: absolute;
+    top: 1.43rem;
+    left: 1.19rem;
+    width: 5.84rem;
+    animation-duration: 1.5s;
+}
+.img_6_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    animation-duration: 1.5s;
+}
+.img_6_3 {
+    position: absolute;
+    top: 2.67rem;
+    left: 1.19rem;
+    width: 5.11rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_6_4 {
+    position: absolute;
+    top: 2.67rem;
+    right: .48rem;
+    width: .12rem;
+    animation-delay: 1.2s;
+    animation-duration: 1.5s;
+}
+/* 页面6结束 */
+
+/* 页面7开始 */
+.img_7_1 {
+    position: absolute;
+    top: 1.42rem;
+    left: 1.2rem;
+    width: 5.9rem;
+    animation-duration: 1.5s;
+}
+.img_7_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_7_3 {
+    position: absolute;
+    top: 2.66rem;
+    left: 1.2rem;
+    width: 4.64rem;
+    animation-delay: .7s;
+    animation-duration: 1.5s;
+}
+.img_7_4 {
+    position: absolute;
+    top: 2.66rem;
+    right: .5rem;
+    width: 0.11rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_7_5 {
+    position: absolute;
+    bottom: 4.70rem;
+    right: 0;
+    width: 1.55rem;
+    animation-delay: 1.2s;
+    animation-duration: 1.5s;
+}
+.img_7_6 {
+    position: absolute;
+    top: 5.5rem;
+    left: 0.63rem;
+    width: 2.16rem;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+}
+/* 页面7结束*/
+
+/* 页面8开始 */
+.img_8_1 {
+    position: absolute;
+    top: 1.42rem;
+    left: 1.2rem;
+    width: 5.9rem;
+    animation-duration: 1.5s;
+}
+.img_8_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_8_3 {
+    position: absolute;
+    top: 2.66rem;
+    left: 1.2rem;
+    width: 5.38rem;
+    animation-delay: .7s;
+    animation-duration: 1.5s;
+}
+.img_8_4 {
+    position: absolute;
+    top: 2.66rem;
+    right: .5rem;
+    width: 0.11rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_8_5 {
+    position: absolute;
+    bottom: 6.05rem;
+    right: .38rem;
+    width: 0.72rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+/* 页面8结束 */
+
+/* 页面9开始 */
+.img_9_1 {
+    position: absolute;
+    top: 1.42rem;
+    left: 1.2rem;
+    width: 5.9rem;
+    animation-duration: 1.5s;
+}
+.img_9_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_9_3 {
+    position: absolute;
+    top: 2.66rem;
+    left: 1.2rem;
+    width: 5.91rem;
+    animation-delay: .7s;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_9_4 {
+    position: absolute;
+    top: 2.66rem;
+    right: .5rem;
+    width: 0.11rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+/* 页面9结束 */
+
+/* 页面10开始 */
+.img_10_1 {
+    position: absolute;
+    top: 1.42rem;
+    left: 1.2rem;
+    width: 5.9rem;
+    animation-duration: 1.5s;
+}
+.img_10_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7rem;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_10_3 {
+    position: absolute;
+    top: 2.66rem;
+    left: 1.2rem;
+    width: 5.91rem;
+    animation-delay: .7s;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_9_4 {
+    position: absolute;
+    top: 2.66rem;
+    right: .5rem;
+    width: 0.11rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+
+/* 页面13 */
+.img_13_1 {
+    position: absolute;
+    top: 1.14rem;
+    left: 1.62rem;
+    width: 4.33rem;
+    animation-duration: 1.5s;
+}
+
+.img_13_2 {
+    position: absolute;
+    top: 3.27rem;
+    left: 1.30rem;
+    width: 2rem;
+    animation-delay: .5s;
+    animation-duration: 1.5s;
+}
+.img_13_3 {
+    position: absolute;
+    top: 3.27rem;
+    right: 1.30rem;
+    width: 2rem;
+    animation-delay: .5s;
+    animation-duration: 1.5s;
+}
+.img_13_4 {
+    position: fixed;
+    top: 50%;
+    left: 2.1rem;
+    width: 3.4rem;
+    transform:translateY(1rem);
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_13_5 {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0.8rem;
+    width: 2.6rem;
+    animation-delay: 1.3s;
+    animation-duration: 1s;
+}
+.img_13_6 {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 0.8rem;
+    width: 2.6rem;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+.img_13_7 {
+    position: absolute;
+    bottom: 1.3rem;
+    left: 0.8rem;
+    width: 2.6rem;
+    animation-delay: 1.7s;
+    animation-duration: 1s;
+}
+.img_13_8 {
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.8rem;
+    width: 2.6rem;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+.img_13_9 {
+    position: absolute;
+    bottom: .15rem;
+    right: 1rem;
+    width: 5.5rem;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+}
+
+/* 页面14样式布局 */
+.img_14_1 {
+    position: absolute;
+    top: 1.8rem;
+    left: 0.55rem;
+    width: 1.55rem;
+    animation-duration: 1.5s;
+}
+.img_14_2 {
+    position: absolute;
+    top: 1.95rem;
+    right: 0.67rem;
+    width: .8rem;
+    animation-duration: 1.5s;
+}
+.img_14_3 {
+    position: absolute;
+    top: 3.82rem;
+    left: 0.55rem;
+    width: 5.87rem;
+    animation-delay: .5;
+    animation-duration: 1.5s;
+    z-index: -1;
+}
+.img_14_4 {
+    position: absolute;
+    top: 4.2rem;
+    left: 3.1rem;
+    width: 2rem;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+.img_14_5 {
+    position: absolute;
+    top: 5.5rem;
+    left: .9rem;
+    width: 4.09rem;
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+}
+.img_14_6 {
+    position: absolute;
+    top: 8.7rem;
+    left: .55rem;
+    width: 3.42rem;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+.img_14_7 {
+    position: absolute;
+    bottom: .5rem;
+    left: .55rem;
+    width: 4.09rem;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+}
